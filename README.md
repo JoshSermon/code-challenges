@@ -9,7 +9,7 @@ Format:
 3.) Find key words and Edge Cases
 4.) Write Psuedcode 
 5.) Write code
-6.) Explain code again
+6.) Explain code again!
 
 
 45 Minutes Max for each problem.
