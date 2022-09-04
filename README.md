@@ -2,6 +2,7 @@
 My progress with coding challenges - JavaScript
 
 
+
 Format:
 
 1.) Read the problem
