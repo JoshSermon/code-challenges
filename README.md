@@ -1,4 +1,4 @@
-# code-challenges 2022
+# Code-Challenges 2022
 My progress with coding challenges - JavaScript
 
 
