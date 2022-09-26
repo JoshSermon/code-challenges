@@ -19,14 +19,14 @@
 // else statement -> reutrn sort function opposite for other side "L"
 
 
-const flip = (direction, arrange){
-if (direction === 'R') {
-    return arrange.sort(function(a, b)  {
-        return a - b;
-    });
-    } else {
-        return arrange.sort(function(a, b) {
-            return b - a;
-        });
-    }
-};
+const flip = (direction, arrange) => {
+    if (direction === 'R') {
+     return arrange.sort(function(a, b) {
+         return a - b;
+     }); 
+   } else {
+       return arrange.sort(function(a, b) {
+         return b - a;
+     });
+     }
+   };
