@@ -6,7 +6,7 @@
 // Math.floor or math.ceiling will work
 
 
-
+//Solution 1
 var sortedArrayToBST = function(nums, left = 0, right = nums.length - 1) {
 
     if(left > right) return null;
@@ -20,3 +20,21 @@ var sortedArrayToBST = function(nums, left = 0, right = nums.length - 1) {
 
     return root;
 }
+
+
+
+
+
+//Solution 2 
+var sortedArrayToBST = function(nums) {
+    if (!nums.length) return null;
+    
+    const mid = Math.floor(nums.length / 2);
+    const root = new TreeNode(nums[mid]);
+    
+    // subtrees are BSTs as well
+    root.left = sortedArrayToBST(nums.slice(0, mid));
+    root.right = sortedArrayToBST(nums.slice(mid + 1));
+    
+    return root;
+};
