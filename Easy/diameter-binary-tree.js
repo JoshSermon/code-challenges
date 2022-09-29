@@ -1,7 +1,7 @@
 // LEETCODE QUESTION 543 - DIAMETER OF BINARY TREE
 
 
-
+// DFS 
 
 
 //Solution 1
